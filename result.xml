@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+  <HIGHSCORE ID="1" DATE="2013-01-18" NAME="Heinz" SCORE="3000"/>
+  <HIGHSCORE ID="2" DATE="2013-01-18" NAME="EasyMock" SCORE="2000"/>
+  <HIGHSCORE ID="3" DATE="2013-01-18" NAME="jMosk" SCORE="1000"/>
+  <HIGHSCORE ID="22" DATE="2013-09-16" NAME="Hermann" SCORE="3000"/>
+</dataset>
