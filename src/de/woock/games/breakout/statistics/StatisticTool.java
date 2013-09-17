@@ -74,16 +74,21 @@ public class StatisticTool {
 
 	public long getTime() {
 		List<String> strings = fileOperation();
-		String string = strings.get(0);
+		long start2 = ExtractDateFromLogLine(strings.get(0));
+
+		long end2 = ExtractDateFromLogLine(strings.get(strings.size() - 1));
+
+		return ConvertToMinutes(start2, end2);
+	}
+
+	private long ExtractDateFromLogLine(String string) {
 		String date = StringUtils.extractTimeStringFromLogline(string);
 		Date start = convertDateStringToDate(date);
 		long start2 = start.getTime();
+		return start2;
+	}
 
-		String lastString = strings.get(strings.size() - 1);
-		date = StringUtils.extractTimeStringFromLogline(lastString);
-		Date end = convertDateStringToDate(date);
-		long end2 = end.getTime();
-
+	private long ConvertToMinutes(long start2, long end2) {
 		return (end2 - start2) / 1000 / 60;
 	}
 
