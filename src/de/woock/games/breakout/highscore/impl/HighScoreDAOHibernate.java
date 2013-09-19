@@ -19,71 +19,58 @@ public class HighScoreDAOHibernate implements HighScoreDAO {
 
 	public void fillDummyData() {
 
-		emf = Persistence.createEntityManagerFactory("breakout-jpa");
-		em = emf.createEntityManager();
-		tx = em.getTransaction();
-		tx.begin();
+		prepareTransaction();
 
 		em.persist(new HighScore(3000, "Hibernate"));
 		em.persist(new HighScore(2000, "Hibernate"));
 		em.persist(new HighScore(1000, "Hibernate"));
 
-		em.flush();
-		tx.commit();
-		em.close();
-		emf.close();
+		finalizeTransaction();
 	}
 
 	@Override
 	public List<HighScore> getHighScores() {
-		emf = Persistence.createEntityManagerFactory("breakout-jpa");
-		em = emf.createEntityManager();
-		tx = em.getTransaction();
-		tx.begin();
-
-		TypedQuery<HighScore> query = em.createQuery("From HighScore", HighScore.class);
+		TypedQuery<HighScore> query = em.createQuery("From HighScore",
+				HighScore.class);
 		List<HighScore> highScores = query.getResultList();
+		return highScores;
+	}
 
+	protected void finalizeTransaction() {
 		em.flush();
 		tx.commit();
 		em.close();
 		emf.close();
+	}
 
-		return highScores;
+	protected void prepareTransaction() {
+		emf = Persistence.createEntityManagerFactory("breakout-jpa");
+		em = emf.createEntityManager();
+		tx = em.getTransaction();
+		tx.begin();
 	}
 
 	@Override
 	public void saveHighScore(final int score, final String name) {
-		emf = Persistence.createEntityManagerFactory("breakout-jpa");
-		em = emf.createEntityManager();
-		tx = em.getTransaction();
-		tx.begin();
+		prepareTransaction();
 
 		em.persist(new HighScore(score, name));
 
-		em.flush();
-		tx.commit();
-		em.close();
-		emf.close();
+		finalizeTransaction();
 	}
 
 	@Override
 	public HighScore getHighScoreByName(String name) {
 		HighScore highscore = new HighScore();
 
-		emf = Persistence.createEntityManagerFactory("breakout-jpa");
-		em = emf.createEntityManager();
-		tx = em.getTransaction();
-		tx.begin();
+		prepareTransaction();
 
-		TypedQuery<HighScore> query = em.createNamedQuery("HighScore.getByName", HighScore.class);
+		TypedQuery<HighScore> query = em.createNamedQuery(
+				"HighScore.getByName", HighScore.class);
 		query.setParameter("name", name);
 		highscore = query.getSingleResult();
 
-		em.flush();
-		tx.commit();
-		em.close();
-		emf.close();
+		finalizeTransaction();
 
 		return highscore;
 	}
