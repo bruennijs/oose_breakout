@@ -1,6 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<dataset>
-  <HIGHSCORE ID="1" NAME="Heinz" SCORE="3000" DATE="2013-01-18"/>
-  <HIGHSCORE ID="2" NAME="EasyMock" SCORE="2000" DATE="2013-01-18"/>
-  <HIGHSCORE ID="3" NAME="jMosk" SCORE="1000" DATE="2013-01-18"/>
-</dataset>

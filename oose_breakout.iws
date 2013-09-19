@@ -2,6 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c00607f2-1be0-46c3-bb05-72d53897ec48" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\Breakout.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\META-INF\MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\META-INF\persistence.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\de\woock\games\breakout\Breakout.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\de\woock\games\breakout\assets\artefacts\Field.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\de\woock\games\breakout\assets\artefacts\HallOfFameText.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\de\woock\games\breakout\assets\artefacts\HighScoreText.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\de\woock\games\breakout\assets\artefacts\LevelText.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\de\woock\games\breakout\assets\artefacts\MultiplyText.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\de\woock\games\breakout\assets\artefacts\NoOfBallsText.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\de\woock\games\breakout\assets\artefacts\PointsText.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\de\woock\games\breakout\assets\images\Background1.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\de\woock\games\breakout\assets\images\Racket.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\de\woock\games\breakout\assets\images\Tile_blue.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\de\woock\games\breakout\assets\images\Tile_green.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\de\woock\games\breakout\assets\images\Tile_purple.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\de\woock\games\breakout\assets\images\Tile_violett.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\de\woock\games\breakout\assets\images\Tile_yellow.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\de\woock\games\breakout\assets\images\racketNarrow.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\de\woock\games\breakout\assets\images\racketWide.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\de\woock\games\breakout\assets\sounds\gottoken.wav" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\de\woock\games\breakout\assets\sounds\hit.au" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\de\woock\games\breakout\assets\sounds\kill.au" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\de\woock\games\breakout\assets\sounds\laser.wav" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\de\woock\games\breakout\assets\sounds\looseLife.au" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\de\woock\games\breakout\highscore\HighScore.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\de\woock\games\breakout\highscore\HighScoreComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\de\woock\games\breakout\highscore\HighScoreDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\de\woock\games\breakout\highscore\impl\HighScoreDAOHibernate.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\de\woock\games\breakout\items\AbstractDrawableItem.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\de\woock\games\breakout\items\DrawableItem.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\de\woock\games\breakout\items\impl\Ball.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\de\woock\games\breakout\items\impl\Racket.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\de\woock\games\breakout\items\impl\RacketNarrow.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\de\woock\games\breakout\items\impl\RacketWide.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\de\woock\games\breakout\items\impl\Shot.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\de\woock\games\breakout\items\impl\Tile.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\de\woock\games\breakout\items\impl\Token.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\de\woock\games\breakout\items\impl\plick_orange.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\de\woock\games\breakout\items\impl\plick_red.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\de\woock\games\breakout\listener\BreakoutKeyListener.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\de\woock\games\breakout\statistics\StatisticTool.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\de\woock\games\breakout\util\PlayerMove.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\de\woock\games\breakout\util\ResourceLocator.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\de\woock\games\breakout\util\StringUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\empty.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\initial.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\oose_breakout\out\production\oose_breakout\result.xml" afterPath="" />
       <change type="DELETED" beforePath="C:\git\oose_breakout\src\de\woock\games\breakout\highscore\impl\HighScoreDAOHibernateTransactionDecorator.java" afterPath="" />
       <change type="DELETED" beforePath="C:\git\oose_breakout\srctest\de\woock\games\breakout\highscore\impl\HighScoreDAOInMemory.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
@@ -11,7 +60,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="c00607f2-1be0-46c3-bb05-72d53897ec48" time="1379583640666" ignored="false" />
     <file path="/a.dummy" changelist="c00607f2-1be0-46c3-bb05-72d53897ec48" time="1379584031482" ignored="false" />
-    <file path="/.gitignore" changelist="c00607f2-1be0-46c3-bb05-72d53897ec48" time="1379584605929" ignored="false" />
+    <file path="/.gitignore" changelist="c00607f2-1be0-46c3-bb05-72d53897ec48" time="1379585994830" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +151,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0">
+            <state line="1" column="4" selection-start="9" selection-end="9" vertical-scroll-proportion="0.03761062">
               <folding />
             </state>
           </provider>
@@ -668,7 +717,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0">
+        <state line="1" column="4" selection-start="9" selection-end="9" vertical-scroll-proportion="0.03761062">
           <folding />
         </state>
       </provider>
